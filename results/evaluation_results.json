@@ -1,0 +1,59 @@
+{
+  "Logistic Regression": {
+    "AUROC": "N/A",
+    "Accuracy": 0.8333333333333334,
+    "Precision": 0.0,
+    "Recall": 0.0,
+    "F1-Score": 0.0,
+    "True Positives": 0,
+    "False Positives": 0,
+    "True Negatives": 20,
+    "False Negatives": 4
+  },
+  "Random Forest": {
+    "AUROC": "N/A",
+    "Accuracy": 1.0,
+    "Precision": 1.0,
+    "Recall": 1.0,
+    "F1-Score": 1.0,
+    "True Positives": 4,
+    "False Positives": 0,
+    "True Negatives": 20,
+    "False Negatives": 0
+  },
+  "Random Forest Top Features": {
+    "dbp_std": 0.033333333333333305,
+    "apache_score": 0.024999999999999977,
+    "chloride_mean": 0.008333333333333326,
+    "icu_days": 0.008333333333333326,
+    "resp_std": 0.008333333333333326,
+    "dbp_mean": 0.0,
+    "temp_mean": 0.0,
+    "spo2_mean": 0.0,
+    "mbp_mean": 0.0,
+    "hr_std": 0.0
+  },
+  "XGBoost": {
+    "AUROC": "N/A",
+    "Accuracy": 0.7083333333333334,
+    "Precision": 0.0,
+    "Recall": 0.0,
+    "F1-Score": 0.0,
+    "True Positives": 0,
+    "False Positives": 3,
+    "True Negatives": 17,
+    "False Negatives": 4
+  },
+  "XGBoost Top Features": {
+    "creatinine_mean": 0.016666666666666698,
+    "hour_of_day": 2.2204460492503132e-17,
+    "sofa_score": 0.0,
+    "apache_score": 0.0,
+    "sodium_mean": 0.0,
+    "platelets_mean": 0.0,
+    "wbc_mean": 0.0,
+    "hemoglobin_mean": 0.0,
+    "mbp_std": 0.0,
+    "spo2_std": 0.0
+  }
+}
