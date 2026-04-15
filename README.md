@@ -8,6 +8,8 @@
 
 This project implements an end-to-end machine learning pipeline to transform raw ICU data into actionable clinical intelligence. It features robust feature engineering, ensemble modeling, and a sophisticated alert system designed for real-world clinical environments.
 
+![Patient Monitoring](icu-image1.jpeg)
+
 ### 1. Data Ingestion & Sampling Strategy
 To handle the high-dimensional nature of the MIMIC-III dataset, the system utilizes a patient-level sampling approach to maintain demographic distribution while optimizing for computational performance.
 
@@ -19,15 +21,6 @@ To handle the high-dimensional nature of the MIMIC-III dataset, the system utili
 
 ### Foresight-ICU: A Clinical Deterioration & Explainable AI (XAI) Engine
 Foresight-ICU is a high-fidelity clinical decision support system (CDSS) that predicts patient deterioration in Intensive Care Units. By processing high-frequency physiological data from the MIMIC-III database, the system identifies subtle patterns of instability—such as sepsis or respiratory failure—hours before they become clinically overt.
-
-<p align="center">
-  <img src="icu-image1.jpeg" width="45%" />
-  <img src="icu-image2.jpeg" width="45%" />
-</p>
-<p align="center">
-  <img src="icu-image3.jpeg" width="45%" />
-  <img src="icu-image5.jpeg" width="45%" />
-</p>
 
 ### 2. Clinical Feature Engineering
 The engine derives critical physiological markers including:
