@@ -8,7 +8,7 @@
 
 This project implements an end-to-end machine learning pipeline to transform raw ICU data into actionable clinical intelligence. It features robust feature engineering, ensemble modeling, and a sophisticated alert system designed for real-world clinical environments.
 
-![Patient Monitoring](icu-image1.jpeg)
+![Patient Monitoring](Icu-image1.jpeg)
 
 ### 1. Data Ingestion & Sampling Strategy
 To handle the high-dimensional nature of the MIMIC-III dataset, the system utilizes a patient-level sampling approach to maintain demographic distribution while optimizing for computational performance.
