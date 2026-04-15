@@ -38,10 +38,15 @@ Clinician trust is built through **SHAP**-based explanations:
 * **Fidelity Testing:** Validating that model accuracy is tied to clinically relevant features.
 * **Waterfall Visualizations:** Providing patient-specific risk factor breakdowns.
 
+![Risk Trajectory](icu-image4.jpeg)
+
 ### 5. Intelligent Alerting & Risk Stratification
 Designed to combat **Alert Fatigue**, the system features:
 * **Risk Tiers:** Stratification into Low, Medium, High, and Critical levels.
 * **Cooldown Protocols:** Preventing redundant alerts for stable abnormal vitals.
+
+![Alert Management](icu-image2.jpeg)
+![Event TimeLine](icu-image5.jpeg)
 
 ---
 
